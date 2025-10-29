@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
     height: 90px;
 }
-.brand { font-family: Orbitron, Inter, sans-serif; letter-spacing: 1px; color: var(--text); display:flex; align-items:center; }
+.brand { font-family: Orbitron, Inter, sans-serif; letter-spacing: 1px; color: var(--text); display:flex; align-items:center; border-radius:%50;}
 .brand img { height: 72px; width: auto; display: block; filter: drop-shadow(0 0 6px rgba(78,161,255,.35)); mix-blend-mode: multiply; }
 .main-nav a {
     color: var(--muted);
@@ -176,5 +176,6 @@ header, main, footer { position: relative; z-index: 1; }
     .grid { grid-template-columns: 1fr; }
     .site-header .container { height: 56px; }
 }
+
 
 
